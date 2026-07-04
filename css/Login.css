@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow: hidden;
+  background: linear-gradient(90deg , rgb(20, 121, 20), rgba(24, 252, 43, 0.856), rgba(12,34,56));
+}
+#form-id {
+  font-size: 20px;
+}
+  
+
+.h2-1 {
+  text-align: left;
+  margin: 27px 75px;
+
+}
+@font-face {
+  font-family: "Badr";
+  src: url("/font/Fonts-B_YasDL.com/IRAmir.ttf");
+}
+.label-form {
+  display: block;
+  margin: 1.5px 75px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 550;
+}
+.input-form {
+  margin: 1.5px 75px;
+  display: inline;
+  padding-right : 250px;
+  padding-bottom: 6.7px;
+  padding: 6.7px 350px 5px 5px;
+  opacity: 20%;
+  border-radius: 10px;
+  transition: 1s;
+}
+.input-form:focus {
+  margin: 1.5px 75px;
+  display: inline;
+  padding-right : 250px;
+  padding-bottom: 6.7px;
+  padding: 6.7px 350px 5px 5px;
+  opacity: 100%;
+  border-radius: 9px;
+  transition: 1s;
+  
+}
+.label-form {
+  letter-spacing: 5px;
+  font-size: 18px;
+}
+
+
+p {
+  display: inline;
+}
+.input-btn {
+  margin: 8.5px 75px;
+}
+.btn-form {
+  margin: 1.5px 75px;
+  display: inline;
+
+  justify-content: center;
+  display: flex;
+  border-radius: 4px;
+  color: white;
+align-items: center;
+height: 30px;
+width: 530px;
+
+  background: rgba(0, 128, 0, 0.911);
+  border: none;
+  font-family: 'Times New Roman', Times,
+   serif;
+   font-size: 20px;
+   
+   letter-spacing: 5px;
+}
+.img-div {
+  width: 700px;
+  height: 300vh;
+  background : url("./Images/1782385620964.png");
+  
+  background-size: contain;
+}

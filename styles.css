@@ -1,0 +1,231 @@
+/* =========================================
+   RESET
+========================================= */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* =========================================
+   BODY
+========================================= */
+
+body {
+  background: rgb(233, 233, 233);
+ 
+  font-family: "Trebuchet MS", Arial, sans-serif;
+}
+
+/* =========================================
+   LINKS
+========================================= */
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* =========================================
+   LISTS
+========================================= */
+
+ul {
+  list-style: none;
+}
+
+.nav-list {
+  display: flex;
+  gap: 55px;
+  font-size: 20px;
+}
+
+/* =========================================
+   HEADER
+========================================= */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 38px 60px;
+}
+
+/* =========================================
+   LOGO
+========================================= */
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  font-family:'Times New Roman', Times, serif;
+  letter-spacing: 3px;
+  margin-left: 80px;
+  font-weight: bold;
+}
+
+.logo-icon {
+  font-size: 27px;
+}
+
+.logo-text {
+  font-size: 26px;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.507) ;
+  border-radius: 10px;
+  margin-bottom: 3.5px;
+  transition: 0.3s;
+}
+/* =========================================
+   NAVBAR
+========================================= */
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  position: relative;
+  color: #000;
+}
+.nav-link:hover {
+  filter: contrast(50%);
+ transition: all 0.8s;
+}
+
+/* Hover Line */
+
+.nav-link::after {
+  content: "";
+
+  position: absolute;
+
+  left: 50%;
+  bottom: -6px;
+
+  transform: translateX(-50%);
+
+  width: 0;
+  height: 2px;
+
+  background: #000;
+
+  transition: width 0.35s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+/* =========================================
+   BUTTON
+========================================= */
+
+.signup-btn {
+  padding: 10px 25px;
+
+  border: none;
+  border-radius: 30px;
+
+  background: #000;
+  color: #fff;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+  margin-right: 80px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 2px;
+}
+
+.signup-btn:hover {
+  transform: translateY(-2px);
+
+  opacity: 0.9;
+}
+
+/* =========================================
+   HERO
+========================================= */
+
+.hero {
+  display: flex;
+  justify-content: flex-end;
+
+  margin-top: 40px;
+}
+
+.hero-image {
+  display: flex;
+  justify-content: flex-end;
+
+  width: 100%;
+}
+
+.hero-img {
+  width: 350px;
+
+  margin-right: 45px;
+  margin-top: -20px;
+
+  display: block;
+  box-shadow: 0px 10px 10px;
+}
+.text-main {
+ color: #000000;
+ margin-top: -490px;
+ font-size: 40px;
+ font-family: 'Times New Roman', Times, serif;
+ font-weight: bold;
+ margin-left: 145px;
+}
+.text-2-main {
+  color: #000000;
+ margin-top: 8px;
+ font-size: 16px;
+ font-family: 'Times New Roman', Times, serif;
+ font-weight: bold;
+ margin-left: 148px
+}
+#h2-4-text-main {
+  margin-left: 120px;
+}
+.h3-main-1 {
+  color: #000000;
+ margin-top: 40px;
+ font-size: 16px;
+ font-family:Verdana, Geneva, Tahoma, sans-serif;
+ font-weight: bold;
+ margin-left: 280px
+}
+hr {
+  width: 610px;
+  margin-top: 20px;
+  border: 0.5px solid ;
+  margin-left: 117px;
+}
+.folow-us-main {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+  margin-left: 309px;
+
+}
+.icons-follow-us-main {
+  font-size: 21px;
+  margin-top: 3px;
+}
+.folow-us-main h3 {
+  font-size: 20px;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.box-shadow-left {
+  box-shadow: 10px 1px 20px 1px;
+  border: 2px solid black;
+  padding-left: 80px;
+
+}
